@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bottom-nav">
+      <div>🏠<br />Dashboard</div>
+      <div>📄<br />Materi</div>
+      <div>⬇️<br />Download</div>
+      <div>📋<br />Tugas</div>
+      <div>👤<br />Profile</div>
+    </div>
+    <header>
+      <nav class="navbar">
+        <!-- LOGO -->
+        <a href="home.html" class="navbar-logo">de<span>Bicara</span>.</a>
+
+        <!-- MENU -->
+        <div class="navbar-nav" id="navMenu">
+          <a href="home.html">Home</a>
+          <a href="#about">Tentang Kami</a>
+
+          <div class="dropdown">
+            <a href="#">Menu</a>
+            <div class="dropdown-content">
+              <a href="hewan.html">Hewan</a>
+              <a href="alat_dapur.html">Alat Dapur</a>
+            </div>
+          </div>
+
+          <a href="#games">Game</a>
+          <a href="#contact">Kontak</a>
+        </div>
+
+        <!-- KANAN -->
+        <div class="nav-right">
+          <!-- SEARCH -->
+          <div class="search-box">
+            <input
+              type="text"
+              id="search"
+              placeholder="Cari..."
+              onkeyup="searchData()"
+            />
+            <span>🔍</span>
+          </div>
+
+          <!-- DARK MODE -->
+          <button onclick="toggleDark()">🌙</button>
+
+          <!-- LOGOUT -->
+          <button onclick="logout()">Logout</button>
+
+          <!-- PROFILE -->
+          <div class="profile" onclick="toggleProfilePanel(event)">
+            <img id="profileImage" src="https://i.pravatar.cc/40" />
+          </div>
+
+          <!-- USERNAME -->
+          <span id="userDisplayNav"></span>
+        </div>
+
+        <!-- TOGGLE MOBILE -->
+        <div class="menu-toggle" onclick="toggleMenu(event)">☰</div>
+      </nav>
+    </header>
+
+    <!-- OVERLAY -->
+    <div id="overlay" class="overlay"></div>
+
+    <!-- PROFILE PANEL -->
+    <div id="profilePanel" class="profile-panel">
+      <h3>Profile</h3>
+
+      <img id="previewImage" src="https://i.pravatar.cc/100" />
+
+      <input type="file" id="uploadImage" accept="image/*" />
+
+      <div style="margin: 10px">
+        🌙 Mode Gelap
+        <label class="switch">
+          <input type="checkbox" onchange="toggleDark(this)" />
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <button onclick="logout()">🚪 Logout</button>
+    </div>
+
+    <!-- TOGGLE -->
+    <div class="menu-toggle" onclick="toggleMenu(event)">☰</div>
+
+    <main>
+      <div class="title-category">
+        <h2 class="title">Kategori Hewan</h2>
+      </div>
+
+      <div id="content"></div>
+
+      <h3 class="stars">⭐ Bintang: <span id="stars">0</span></h3>
+    </main>
+
+    <h3>🎯 Level: <span id="level">1</span></h3>
+    <h4>⭐ XP: <span id="xp">0</span></h4>
+
+    <script src="Script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        loadCategory("hewan");
+      });
+    </script>
+  </body>
+</html>

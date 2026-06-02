@@ -1,0 +1,653 @@
+/* RESET DASAR */
+body {
+  /* max-width: 400px; */
+  margin: auto;
+  border: 1px solid #ccc;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f3ff;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f3ff;
+}
+
+/* ================= LOGIN ================= */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-body {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
+
+.login-box h2 {
+  margin-bottom: 15px;
+  color: #6a0dad;
+}
+
+.login-box input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 60px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-box button:hover {
+  background: #5a0cb0;
+}
+
+/* ================= HEADER ================= */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6a0dad;
+  color: white;
+  padding: 12px 20px;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-right button {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-right button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.navbar .navbar-logo {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+.navbar .navbar-logo span {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.navbar .navbar-nav a {
+  color: white;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.navbar .navbar-nav a:hover {
+  color: white;
+}
+.navbar-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav a:hover::after {
+  width: 100%;
+}
+
+/* nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+} */
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* =========== */
+#navMenu {
+  display: flex;
+  gap: 15px;
+}
+#navMenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+/* #navMenu a:hover {
+  text-decoration: underline;
+} */
+
+/* Tombol di HOME */
+.hero {
+  text-align: center;
+  margin-top: 80px;
+}
+.hero-buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: none;
+  background: #6a0dad;
+  color: white;
+  cursor: pointer;
+}
+/* ================ */
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+}
+/* PROFILE */
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* MENU TOGGLE (HP) */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* ================= KATEGORI ================= */
+.category-buttons {
+  padding: 20px;
+}
+
+.category-buttons button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: #6a0dad;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.category-buttons button:hover {
+  background: #5a0cb0;
+}
+
+.profile-panel {
+  position: fixed;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100%;
+  background: #6a0dad;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.profile-panel a {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile-panel a:hover {
+  background: #5a0cb0;
+}
+/* ================= CONTENT ================= */
+#content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.card img {
+  height: 120px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.card p {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+/* BUTTON MIC */
+.mic-btn {
+  margin-top: 8px;
+  padding: 5px 10px;
+  border: none;
+  background: #6a0dad;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mic-btn:hover {
+  background: #5a0cb0;
+}
+
+/* ================= TEXT ================= */
+.title {
+  padding-left: 20px;
+}
+
+.stars {
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  top: 100%; /* INI PENTING */
+  left: 0;
+  padding-bottom: 5px;
+  background: #6a0dad;
+  min-width: 150px;
+  border-radius: 8px;
+  z-index: 999;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background: #5a0cb0;
+}
+
+/* MUNCUL SAAT HOVER */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* DESKTOP → hover */
+@media (min-width: 769px) {
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+/* OVERLAY GELAP */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  z-index: 998;
+}
+
+/* aktif */
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* MOBILE → klik */
+@media (max-width: 768px) {
+  .dropdown-content {
+    position: static;
+    background: #5a0cb0;
+  }
+}
+
+/* ======================================== */
+/* GAME */
+.xp-bar {
+  width: 80%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.xp-fill {
+  height: 100%;
+  background: #6a0dad;
+  width: 0%;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.success-popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* ======== */
+@media (max-width: 768px) {
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+  .navbar-nav {
+    position: fixed;
+    top: 0;
+    right: -100%; /* awalnya sembunyi */
+    width: 30%; /* 🔥 ini yang kamu mau */
+    height: 100%;
+    background: #6a0dad;
+    flex-direction: column;
+    padding-top: 60px;
+    transition: 0.3s ease;
+    z-index: 999;
+  }
+
+  .navbar-nav a {
+    display: block;
+    padding: 15px;
+    position: relative;
+  }
+  /* nav a {
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  } */
+
+  .menu-toggle {
+    display: block;
+  }
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* DARKMODE */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .card {
+  background: #1e1e1e;
+}
+#search {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.profile-panel {
+  right: -100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 30%;
+  height: 100%;
+  background: white;
+  padding: 20px;
+  transition: 0.3s;
+  z-index: 1000;
+  text-align: center;
+}
+
+.profile-panel img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 15px 0;
+  object-fit: cover;
+}
+
+.profile-panel button {
+  display: block;
+  width: 80px;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  background: #6a0dad;
+  color: white;
+}
+
+input #uploadImage {
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+}
+
+/* SWITCH DARK MODE */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+input:checked + .slider {
+  background-color: #222;
+}
+
+input:checked + .slider::before {
+  transform: translateX(20px);
+}
+.search-box {
+  position: fixed;
+  top: 85px;
+  right: 20px;
+}
+
+.search-box input {
+  padding: 8px 35px 8px 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.search-box span {
+  position: fixed;
+  right: 45px;
+  top: 112px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.menu-card {
+  height: 140px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+}
+
+.menu-card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* WARNA */
+.green {
+  background: #4caf50;
+}
+.purple {
+  background: #9c27b0;
+}
+.yellow {
+  background: #ffc107;
+  color: black;
+}
+.orange {
+  background: #ff9800;
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #4aa3df;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  color: white;
+  font-size: 12px;
+}
+
+.bottom-nav div {
+  text-align: center;
+}

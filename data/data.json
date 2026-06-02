@@ -1,0 +1,263 @@
+{
+  "hewan": [
+    {
+      "nama": "Kucing",
+      "gambar": "assets/images/kucing.png",
+      "audio": "assets/audio/kucing.mp3"
+    },
+    {
+      "nama": "Anjing",
+      "gambar": "assets/images/anjing.png",
+      "audio": "assets/audio/anjing.mp3"
+    },
+    {
+      "nama": "Sapi",
+      "gambar": "assets/images/sapi.png",
+      "audio": "assets/audio/sapi.mp3"
+    },
+    {
+      "nama": "Kuda",
+      "gambar": "assets/images/kuda.png",
+      "audio": "assets/audio/kuda.mp3"
+    },
+    {
+      "nama": "Harimau",
+      "gambar": "assets/images/harimau.png",
+      "audio": "assets/audio/harimau.mp3"
+    },
+    {
+      "nama": "Singa",
+      "gambar": "assets/images/singa.png",
+      "audio": "assets/audio/singa.mp3"
+    },
+    {
+      "nama": "Jerapah",
+      "gambar": "assets/images/jerapah.png",
+      "audio": "assets/audio/jerapah.mp3"
+    },
+    {
+      "nama": "Gajah",
+      "gambar": "assets/images/gajah.png",
+      "audio": "assets/audio/gajah.mp3"
+    },
+    {
+      "nama": "Kelinci",
+      "gambar": "assets/images/kelinci.png",
+      "audio": "assets/audio/kelinci.mp3"
+    },
+    {
+      "nama": "Serigala",
+      "gambar": "assets/images/serigala.png",
+      "audio": "assets/audio/serigala.mp3"
+    },
+    {
+      "nama": "Kambing",
+      "gambar": "assets/images/kambing.png",
+      "audio": "assets/audio/kambing.mp3"
+    },
+    {
+      "nama": "Kudanil",
+      "gambar": "assets/images/kudanil.png",
+      "audio": "assets/audio/kudanil.mp3"
+    },
+    {
+      "nama": "Buaya",
+      "gambar": "assets/images/buaya.png",
+      "audio": "assets/audio/buaya.mp3"
+    },
+    {
+      "nama": "Badak",
+      "gambar": "assets/images/badak.png",
+      "audio": "assets/audio/badak.mp3"
+    },
+    {
+      "nama": "Panda",
+      "gambar": "assets/images/panda.png",
+      "audio": "assets/audio/panda.mp3"
+    },
+    {
+      "nama": "Beruang",
+      "gambar": "assets/images/beruang.png",
+      "audio": "assets/audio/beruang.mp3"
+    },
+    {
+      "nama": "Tapir",
+      "gambar": "assets/images/tapir.png",
+      "audio": "assets/audio/tapir.mp3"
+    },
+    {
+      "nama": "Kancil",
+      "gambar": "assets/images/kancil.png",
+      "audio": "assets/audio/kancil.mp3"
+    },
+    {
+      "nama": "Babi Hutan",
+      "gambar": "assets/images/babi_hutan.png",
+      "audio": "assets/audio/babi_hutan.mp3"
+    },
+    {
+      "nama": "Ular",
+      "gambar": "assets/images/ular.png",
+      "audio": "assets/audio/ular.mp3"
+    }
+  ],
+  "alat_dapur": [
+    {
+      "nama": "Piring",
+      "gambar": "data/images/piring.jpg",
+      "audio": "assets/audio/piring.mp3"
+    },
+    {
+      "nama": "Sendok",
+      "gambar": "data/images/sendok.jpg",
+      "audio": "assets/audio/sendok.mp3"
+    },
+    {
+      "nama": "Garpu",
+      "gambar": "data/images/garpu.jpg",
+      "audio": "assets/audio/garpu.mp3"
+    },
+    {
+      "nama": "Kompor",
+      "gambar": "data/images/kompor.jpg",
+      "audio": "assets/audio/kompor.mp3"
+    },
+    {
+      "nama": "Mangkuk",
+      "gambar": "data/images/mangkuk.jpg",
+      "audio": "assets/audio/mangkuk.mp3"
+    },
+    {
+      "nama": "Kuali",
+      "gambar": "data/images/kuali.jpg",
+      "audio": "assets/audio/kuali.mp3"
+    },
+    {
+      "nama": "Presto",
+      "gambar": "data/images/presto.jpg",
+      "audio": "assets/audio/presto.mp3"
+    },
+    {
+      "nama": "Pisau",
+      "gambar": "data/images/pisau.jpg",
+      "audio": "assets/audio/pisau.mp3"
+    },
+    {
+      "nama": "Wajan",
+      "gambar": "data/images/wajan.jpg",
+      "audio": "assets/audio/wajan.mp3"
+    },
+    {
+      "nama": "Spatula",
+      "gambar": "data/images/spatula.jpg",
+      "audio": "assets/audio/spatula.mp3"
+    },
+    {
+      "nama": "Timbangan",
+      "gambar": "data/images/timbangan.jpg",
+      "audio": "assets/audio/timbangan.mp3"
+    },
+    {
+      "nama": "Blender",
+      "gambar": "data/images/blender.jpg",
+      "audio": "assets/audio/blender.mp3"
+    },
+    {
+      "nama": "Kulkas",
+      "gambar": "data/images/kulkas.jpg",
+      "audio": "assets/audio/kulkas.mp3"
+    },
+    {
+      "nama": "Saringan",
+      "gambar": "data/images/saringan.jpg",
+      "audio": "assets/audio/saringan.mp3"
+    },
+    {
+      "nama": "Parutan",
+      "gambar": "data/images/parutan.jpg",
+      "audio": "assets/audio/parutan.mp3"
+    },
+    {
+      "nama": "Cetakan",
+      "gambar": "data/images/cetakan.jpg",
+      "audio": "assets/audio/cetakan.mp3"
+    },
+    {
+      "nama": "Cangkir",
+      "gambar": "data/images/cangkir.jpg",
+      "audio": "assets/audio/cangkir.mp3"
+    },
+    {
+      "nama": "Teko",
+      "gambar": "data/images/teko.jpg",
+      "audio": "assets/audio/teko.mp3"
+    },
+    {
+      "nama": "Sumpit",
+      "gambar": "data/images/sumpit.jpg",
+      "audio": "assets/audio/sumpit.mp3"
+    },
+    {
+      "nama": "Saringtsan Teh",
+      "gambar": "data/images/saringan_teh.png",
+      "audio": "assets/audio/saringan_teh.mp3"
+    },
+    {
+      "nama": "Nampan",
+      "gambar": "data/images/nampan.jpg",
+      "audio": "assets/audio/nampan.mp3"
+    }
+  ],
+  "alatSekolah": [
+    {
+      "nama": "Pensil",
+      "gambar": "data/images/pensil.jpg",
+      "audio": "assets/audio/pensil.mp3"
+    },
+    {
+      "nama": "Penghapus",
+      "gambar": "data/images/penghapus.jpg",
+      "audio": "assets/audio/penghapus.mp3"
+    },
+    {
+      "nama": "Penggaris",
+      "gambar": "data/images/penggaris.jpg",
+      "audio": "assets/audio/penggaris.mp3"
+    },
+    {
+      "nama": "Buku Tulis",
+      "gambar": "data/images/buku_tulis.jpg",
+      "audio": "assets/audio/buku_tulis.mp3"
+    },
+    {
+      "nama": "Spidol",
+      "gambar": "data/images/spidol.jpg",
+      "audio": "assets/audio/spidol.mp3"
+    },
+    {
+      "nama": "Kertas HVS",
+      "gambar": "data/images/kertas_hvs.jpg",
+      "audio": "assets/audio/kertas_hvs.mp3"
+    },
+    {
+      "nama": "Rautan Pensil",
+      "gambar": "data/images/rautan_pensil.jpg",
+      "audio": "assets/audio/rautan_pensil.mp3"
+    },
+    {
+      "nama": "Lem Kertas",
+      "gambar": "data/images/lem_kertas.jpg",
+      "audio": "assets/audio/lem_kertas.mp3"
+    },
+    {
+      "nama": "Stapler",
+      "gambar": "data/images/stapler.jpg",
+      "audio": "assets/audio/stapler.mp3"
+    },
+    {
+      "nama": "Klip Kertas",
+      "gambar": "data/images/klip_kertas.jpg",
+      "audio": "assets/audio/klip_kertas.mp3"
+    }
+  ]
+}
